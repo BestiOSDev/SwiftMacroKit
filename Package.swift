@@ -17,6 +17,10 @@ let package = Package(
             name: "SwiftMacroKitClient",
             targets: ["SwiftMacroKitClient"]
         ),
+        .executable(
+            name: "SwiftMacroKitMacros",
+            targets: ["SwiftMacroKitMacros"]
+        )
     ],
     dependencies: [
         // Depend on the latest Swift 5.9 prerelease of SwiftSyntax
